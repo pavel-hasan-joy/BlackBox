@@ -2,14 +2,18 @@
 
 ### Production Failure Recorder & Incident Intelligence Platform
 
+> [!NOTE]
+> **Project Status: Work In Progress (Active Development — Not Yet Complete)**  
+> BlackBox is currently under active development. Core bounded ring-buffer telemetry recording, pre-failure freeze engine, recursive secret redaction, causal evidence graph generation, and time-scrubbing are functional. Extended distributed tracing sinks, analytical storage adapters (ClickHouse), and multi-service mesh integrations are currently in progress.
+
 > *"When production breaks, BlackBox remembers what happened before it broke."*  
 > **Tagline:** Observe less. Remember better.  
 > **Core Principle:** Logs tell you what happened. BlackBox tells you what led to the failure.
 
-[![CI](https://github.com/mdpavel/BlackBox/actions/workflows/ci.yml/badge.svg)](https://github.com/mdpavel/BlackBox/actions)
+[![CI](https://github.com/pavel-hasan-joy/BlackBox/actions/workflows/ci.yml/badge.svg)](https://github.com/pavel-hasan-joy/BlackBox/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
-[![Benchmarks](https://img.shields.io/badge/Overhead-0.004ms-brightgreen.svg)](#performance-benchmarks)
+[![Benchmarks](https://img.shields.io/badge/Overhead-0.004ms-brightgreen.svg)](#-performance-benchmarks-empirical-proof)
 
 ---
 
