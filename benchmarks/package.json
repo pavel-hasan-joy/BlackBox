@@ -1,0 +1,21 @@
+{
+  "name": "benchmarks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "benchmark": "tsx run-all.ts",
+    "bench:ring": "tsx ring-buffer.bench.ts",
+    "bench:sdk": "tsx sdk-overhead.bench.ts",
+    "bench:ingest": "tsx ingestion.bench.ts"
+  },
+  "dependencies": {
+    "@blackbox/schema": "*",
+    "@blackbox/sdk": "*",
+    "@blackbox/core": "*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,1 @@
+{"root":["./src/client.ts","./src/index.ts","./src/buffer/ring-buffer.ts","./src/context/trace-context.ts","./src/recorder/recorder.ts","./src/redaction/redactor.ts"],"version":"5.9.3"}
