@@ -1,7 +1,9 @@
 # BLACKBOX
 
 ### Production Failure Recorder & Incident Intelligence Platform
+![Status](https://img.shields.io/badge/Status-Under%20Development-orange?style=flat-square)
 
+**Disclaimer:**
 > [!NOTE]
 > **Project Status: Work In Progress (Active Development — Not Yet Complete)**  
 > BlackBox is currently under active development. Core bounded ring-buffer telemetry recording, pre-failure freeze engine, recursive secret redaction, causal evidence graph generation, and time-scrubbing are functional. Extended distributed tracing sinks, analytical storage adapters (ClickHouse), and multi-service mesh integrations are currently in progress.
